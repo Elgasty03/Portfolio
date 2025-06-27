@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-calc{
+    width: 350px;
+    height: 550px;
+    background-color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.pantalla{
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    padding: 15px 10px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+.fila-botones{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+       
+}
+
+.boton{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(113, 109, 109);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: tango;
+    cursor: pointer;
+}
+
+.resultado{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(222, 220, 220);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: tango;
+    cursor: pointer;
+}
+
+.resultado:hover{
+    background-color: rgba(222, 220, 220, 0.814);
+}
+
+.boton:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.ecuacion{
+    background-color: orange;
+}
+
+.ecuacion:hover{
+    background-color: rgb(168, 110, 2);
+}
+
+button{
+    border: 0;
+}
+
+p{
+    font-family: tango;
+}
+
+
+.numero-resultado{
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    color: white;
+
+}
+
+.numero-pantalla{
+    color: greenyellow;
+    font-size: 38px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+
+
+@font-face {
+    font-family:'tango';
+    src:url("fonts/TangoSans.ttf");
+}
+
+@font-face {
+    font-family:'inter';
+    src:url("fonts/TT\ Interphases\ Pro\ Trial\ Regular.ttf");
+}

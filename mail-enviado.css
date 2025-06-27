@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h2{
+    font-family: tango;
+    font-size: 30px;
+}
+
+p{
+    font-family: inter;
+    font-size: 18px;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 700px;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -4px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family:'tango';
+    src:url("fonts/TangoSans.ttf");
+}
+
+@font-face {
+    font-family:'inter';
+    src:url("fonts/TT\ Interphases\ Pro\ Trial\ Regular.ttf");
+}
